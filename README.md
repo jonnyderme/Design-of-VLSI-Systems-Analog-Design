@@ -1,6 +1,41 @@
 # Design of VLSI Systems/Analog Design
 Assignments for the "Design of VLSI Systems/Analog Design" Course Faculty of Engineering, AUTh School of Electrical and Computer Engineering: Operational Transcondunce Amplifier and Memristors 
 
+---
+
+## 📚 Table of Contents
+
+### ⚙️ Computational Assignment: Telescopic OTA
+- [📝 Project Overview](#-project-overview)
+- [🧠 Theoretical Background](#-theoretical-background)
+  - [⚙️ Structure and Operation](#️-structure-and-operation)
+- [✨ Advantages & ⚠️ Limitations](#-advantages--️-limitations)
+- [📈 Performance Metrics](#-performance-metrics)
+- [🔬 Tools Used](#-tools-used)
+- [📈 Key Results](#-key-results)
+- [📚 References](#-references)
+- [✅ Verification Summary](#-verification-summary)
+
+### 📖 Bibliographical Assignment: Memristors
+- [📚 Overview](#-overview-1)
+- [🔬 Key Topics Explored](#-key-topics-explored)
+  - [📌 1. Fundamentals of Memristors](#-1-fundamentals-of-memristors)
+  - [📌 2. CMOS Memristor Emulator](#-2-cmos-memristor-emulator)
+  - [📌 3. Applications](#-3-applications)
+    - [🔁 A. BFSK Modulator/Demodulator](#-a-bfsk-modulatordemodulator)
+    - [🧮 B. Memristive Logic Gates](#-b-memristive-logic-gates)
+    - [💾 C. ReRAM Systems](#-c-reram-systems)
+    - [🧠 D. Edge Detection](#-d-edge-detection)
+  - [📌 4. Lifetime & Aging](#-4-lifetime--aging)
+  - [📌 5. Ternary Logic Systems](#-5-ternary-logic-systems)
+- [📄 References](#-references-1)
+
+### 📁 Repository Structure
+- [📁 Repository Structure](#-repository-structure)
+
+
+---
+
 
 # ⚙️ VLSI Systems Design – Computational Assignment (2024)
 
@@ -8,8 +43,6 @@ Assignments for the "Design of VLSI Systems/Analog Design" Course Faculty of Eng
 🏛️ **Faculty:** AUTh – School of Electrical and Computer Engineering  
 📅 **Semester:** 9th Semester, 2023–2024  
 👥 **Team 12:**  
-
----
 
 ## 📝 Project Overview
 
