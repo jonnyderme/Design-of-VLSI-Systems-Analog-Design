@@ -132,7 +132,11 @@ The amplifier consists of:
 
 ---
 ---
-# ⚙️ Design of VLSI Systems – Bibliographical Assignment  
+# ⚙️ Design of VLSI Systems – Bibliographical Assignment  – Memristor-Based Analog & Digital Design
+
+### 📖 Research Focus: Memristors in VLSI Systems
+
+This bibliographical study explores **Memristors** as the fourth fundamental circuit element and their transformative role in analog and digital circuit design. Originally theorized by **Leon Chua in 1971** and physically realized in 2008, memristors offer non-volatile memory characteristics, enabling compact, energy-efficient logic and memory solutions for modern integrated circuits.
 ---
 
 ## 🧠 Project Title: Memristors – Theory, Simulation, and Applications
@@ -143,6 +147,19 @@ The amplifier consists of:
 This project explores **memristors**, the fourth fundamental passive circuit element, following resistors, capacitors, and inductors. Introduced theoretically in 1971 by Leon Chua and practically realized in 2008, memristors provide a direct relationship between electric charge and magnetic flux. Their memory-dependent resistance allows for numerous applications in analog computing, logic design, and non-volatile memory systems.
 
 ---
+
+## 🧠 Theoretical Overview
+
+### 🔄 Memristance Fundamentals
+- **Memristance (M)** defines the relation between electric charge \( q \) and magnetic flux \( \phi \).
+- Acts as a history-dependent resistor with states **RON (low resistance)** and **ROFF (high resistance)** representing logic levels.
+
+### ⚙️ Memristor Types
+- **Metal Oxide (e.g., TiO₂-based)**
+- **Polymeric/Ionic**
+- **Manganite-based**
+
+Each offers distinct electrical characteristics suitable for neuromorphic computing, RF circuits, and high-density memory.
 
 ## 🔬 Key Topics Explored
 
@@ -184,7 +201,58 @@ This project explores **memristors**, the fourth fundamental passive circuit ele
 - Implementation of gates and inverters (TAND, STI, PTI, NTI)  
 - Memristor-based circuits for compact multi-valued logic
 
+## 🧪 Circuit-Level Modeling
+
+A **90nm CMOS memristor emulator** is proposed using 3 NMOS transistors and a capacitor:
+- Operates under nonlinear behavior by body-drain coupling.
+- Exhibits **memory-like behavior** under pulse testing: resistance switches between RON and ROFF and holds value for ~18 μs during OFF cycles.
+
+📊 Example Results:
+- Memristance drops from **2.5 MΩ → 1.48 MΩ** in first pulse ON-time.
+- Stabilized at **1.285 MΩ** during second pulse ON-time, demonstrating retention.
+
+
+## 🧱 Applications in Circuit Design
+
+### 🔄 Logic Gates
+- Implementation of AND, OR, XOR using **memristors** as programmable resistors.
+- Switching behavior modulated via polarity and current direction.
+
+### 🧠 Memory Systems: ReRAM
+- Integration of memristors in **1T1R** and **2T1R** architectures.
+- Enables dense, low-power **non-volatile memory** with crossbar array layouts.
+- Used in analog memory, digital logic, and **edge detection for image processing**.
+
+### ➕ Ternary Logic (3-valued logic)
+- Memristors enable compact implementations of **Ternary AND, OR, XOR, and Inverters**.
+- Key advantage: process **more states per bit**, enhancing data throughput.
+
+
+
+## 📈 Applications Summary
+| Area                  | Functionality                         |
+|-----------------------|--------------------------------------|
+| RF Design             | High-frequency filtering & memory     |
+| Signal Processing     | Analog data modulation (e.g., BFSK)   |
+| Edge Detection        | 8×8 memristor-based crossbar filtering|
+| Logic Design          | Memristor-based logic gates (AND/OR)  |
+| Memory Design         | ReRAM with 1T1R & 2T1R topologies      |
+| Neuromorphic Systems  | Synaptic-like behavior in arrays      |
+
+
+
+## 📘 Bibliography
+- Wang et al., “High-Density Memristor-CMOS Ternary Logic”, IEEE TCAS-I, 2021  
+- Maheshwari et al., “Design Flow for Hybrid CMOS/Memristor Systems”, IEEE TCAS-I, 2021  
+- Ghosh et al., “MOSFET-Based Memristor for HF Signal Processing”, IEEE TED, 2022  
+- Irmanova et al., “Programming Circuits for Aging Memristors”, IEEE TCAS-II, 2021  
+
+
+
 ---
+
+
+
 
 ## 📄 References  
 The report includes references to recent IEEE papers discussing the implementation, layout, and functionality of memristor-CMOS hybrid circuits, aging behavior, and advanced ternary logic systems.
