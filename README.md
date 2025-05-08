@@ -137,9 +137,11 @@ The amplifier consists of:
 ### 📖 Research Focus: Memristors in VLSI Systems
 
 This bibliographical study explores **Memristors** as the fourth fundamental circuit element and their transformative role in analog and digital circuit design. Originally theorized by **Leon Chua in 1971** and physically realized in 2008, memristors offer non-volatile memory characteristics, enabling compact, energy-efficient logic and memory solutions for modern integrated circuits.
+
 ---
 
 ## 🧠 Project Title: Memristors – Theory, Simulation, and Applications
+
 ---
 
 ## 📚 Overview  
