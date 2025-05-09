@@ -42,7 +42,7 @@ Assignments for the "Design of VLSI Systems/Analog Design" Course Faculty of Eng
 📚 **Course:** Design of VLSI Systems / Analog Design  
 🏛️ **Faculty:** AUTh – School of Electrical and Computer Engineering  
 📅 **Semester:** 9th Semester, 2023–2024  
-👥 **Team 12:**  
+👥 **Team 12**  
 
 ## 📝 Project Overview
 
